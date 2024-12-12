@@ -119,7 +119,7 @@ async function postToBlueSky({
       const { roverName, cameraName, earthDate, savedImagePath } = randomPhoto;
 
       // Prepare the post text
-      const postText = `📸 Random Latest Mars Rover Photo 📸\n\n🚀 Rover: ${roverName}\n📅 Date: ${earthDate}\n📷 Camera: ${cameraName}\n\nExplore the Red Planet! 🪐\n\nPhoto Credit: NASA's Mars Rovers\n\n#Mars #Space #Astronomy #RedPlanet `;
+      const postText = `📸 Random Latest Mars Rover Photo 📸\n\n🚀 Rover: ${roverName}\n📷 Camera: ${cameraName}\n\nExplore the Red Planet! 🪐\n\nPhoto Credit: NASA's Mars Rovers\n\n#Mars #Space #Astronomy #RedPlanet `;
 
       // Post the photo to BlueSky
       await postToBlueSky({
